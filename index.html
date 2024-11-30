@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en" class="fsvs">
+	<head>
+		<!-- Required meta tags -->
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<title>Tristan Boomer Cloud Resume</title>
+
+		<!--CSS-->
+		<link rel="stylesheet" href="css/fsvs.css">
+		<link href="https://fonts.googleapis.com/css?family=Hind+Vadodara:300,400,500,600,700" rel="stylesheet">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+		<link rel="stylesheet" href="css/chocolat.css">
+		<link rel="stylesheet" href="css/styles.css">
+		<link rel="stylesheet" href="css/font-awesome.min.css">
+		
+		
+	 
+	</head>
+	<body>
+		<nav class="navigation">
+			<ul>
+				<li><a href="#slide-1">About</a></li>
+				<li><a href="#slide-2">Website Overview</a></li>
+				<li><a href="#slide-3">Experience</a></li>
+				<li><a href="#slide-4">Education</a></li>
+				<li><a href="#slide-5">Portfolio</a></li>
+				<li><a href="#slide-6">Contact</a></li>
+			</ul>
+		</nav>
+		
+		<div id="fsvs-body" class="site-wrapper">
+			
+			<div class="slide">
+			 	<div class="slide-wrapper">
+				 	<div class="slide-wrapper-inner">
+										
+						<img src="images/Headshot.jpg" width="200" class="logo rounded-circle mb-4">
+													
+						<h1>Tristan Boomer</h1>
+							<p class="subtitle mt-3"><strong>Contact: </strong>tristan.c.boomer@gmail.com</p>
+							<p id="testingcount">Visitor Counter: </p>
+							<p class="lead"><strong>C:\whoami</strong>
+							<br>
+							Cybersecurity professional with experience in Threat Hunting, Detection Engineering, Incident Response, and Penetration Testing</p>
+	
+					</div>
+				</div>
+			</div><!--/ .slide-->
+
+			<div class="slide">
+				<div class="slide-wrapper">
+					<br>
+					<br>
+					<br>
+					<br>
+					   <h2>Website Overview</h2>
+					<br>
+					<br>
+					<br>
+						<h4>Background:</h4> 
+						<p>This Resume/Website was inspired by Forrest Brazeal's Cloud Resume Challenge and has served as a productive project in building both frontend and backend infrastructure hosted within AWS.
+							For anyone interested in cloud engineering, I highly recommend it.
+						</p>
+						<br>
+						<h4>Architecture:</h4>
+						<p>This website is hosted and was built on AWS with a number of services including all of those listed at the bottom of this page. To provide a quick overview, this website/its files are hosted within an AWS S3 bucket which uses Cloudfront to act as a CDN while simultaneously leveraging Route53 for domain name resolution. 
+							If you look at the main page, you will also notice a visitor counter. This counter tracks the total number of visits to this page through a database hosted in DynamoDB. Every time this page is accessed, a POST request is sent to an API which triggers a script in AWS's Lambda to increment the value within a table within a DynamoDB Database. 
+							The POST request then returns updated value in its response which is then extracted with javascript and displayed on the home page.</p>
+							<br>
+							<br>
+							<br>
+							<br>
+							<ul class="list-one">
+							<li style="font-size: 26px">S3 | </li>
+							<li style="font-size: 26px">Cloudfront | </li>
+							<li style="font-size: 26px">Route53 | </li>
+							<li style="font-size: 26px">Lambda | </li>
+							<li style="font-size: 26px">DynamoDB | </li>
+							<li style="font-size: 26px">API Gateway</li>
+						</ul>
+						<ul class="list-two">
+							<li><img src="images/S3.jpg" width="110" class="logo rounded-circle mb-4"></li>
+							<li><img src="images/Cloudfront.jpg" width="110" class="logo rounded-circle mb-4"></li>
+							<li><img src="images/Route53.jpg" width="110" class="logo rounded-circle mb-4"></li>
+							<li><img src="images/lambda.jpg" width="110" class="logo rounded-circle mb-4"></li>
+							<li><img src="images/DynamoDB.jpg" width="110" class="logo rounded-circle mb-4"></li>
+							<li><img src="images/API Gateway.jpg" width="110" class="logo rounded-circle mb-4"></li>
+						</ul>
+				</div>
+			   </div><!--/ .slide-->
+			
+			<div class="slide">
+			 	<div class="slide-wrapper">
+				 	<div class="slide-wrapper-inner">
+						<h2>Experience</h2>
+						<p>*Please email to request a full resume</p>
+						<br>
+						<br>
+						<br>
+						<div class="item">
+							<div class="row">
+								<div class="col-sm-12 col-md-3 text-left border-right pr-4">
+									<div class="date">January 2025 - Present</div>
+									<h4>Capital One</h4>
+									<p class="subtitle">Principal Associate, Cyber Technical</p>
+								</div>
+
+								<div class="col text-left mt-md-3">
+									<p class="pl-md-2 item-description">Senior analyst in the Cyber Security Operations Center (CSOC) supporting day-to-day threat detection and incident response operations through indicator pivoting, campaign analysis, and tactical intelligence</p>
+								</div>
+							</div>
+						</div>
+						
+						<div class="item">
+							<div class="row">
+								<div class="col-sm-12 col-md-3 text-left border-right pr-4">
+									<div class="date">July 2023 - January 2025</div>
+									<h4>U.S. Army</h4>
+									<p class="subtitle">Security Engineer, Threat Detection</p>
+								</div>
+
+								<div class="col text-left mt-md-3">
+									<p class="pl-md-2 item-description">Technical Lead and supervisor of five senior analysts; engineered detections in SIEMs, Python, and SQL to enable the security of enterprise infrastructure</p>
+								</div>
+							</div>
+						</div>
+						
+						<div class="item">
+							<div class="row">
+								<div class="col-sm-12 col-md-3 text-left border-right pr-4">
+									<div class="date">October 2020 - July 2023</div>
+									<h4>U.S. Army</h4>
+									<p class="subtitle">Threat Hunter</p>
+									<br>
+								</div>
+
+								<div class="col text-left mt-md-3">
+									<p class="pl-md-2 item-description">Technical lead of seven junior analysts; Performed proactive threat detection with SIEM and EDR Tools across environments</p>
+								</div>
+							</div>
+						</div>
+						
+						
+					</div>
+				</div>
+			</div><!--/ .slide-->
+			
+			
+			<div class="slide">
+			 	<div class="slide-wrapper">
+				 	<div class="slide-wrapper-inner">
+						<h2>Education</h2>
+						<br>
+						<br>
+						<br>
+								<h4>2024 - 2027</h4>
+								<h3> Georgia Insitute of Technology (Online)</h3>
+								<h4>M.S. Cybersecurity - Information Security</h4>
+								<br>
+								<h4>2016 - 2020</h4>
+								<h3> Washington University in St. Louis</h3>
+								<h4>B.S. Systems Engineering</h4>
+						<br>
+						<br>
+						<br>
+						<h2>Certifications</hr>
+						<br>
+						<br>
+								<h4>Offensive Security Certified Professional (OSCP) - November 2022</h4>
+								<h4>GIAC Certified Intrusion Analyst (GCIA) - March 2023</h4>
+								<h4>GIAC Certified Incident Handler (GCIH) - August 2023</h4>
+								<h4>ISC2 Associate - May 2021</h4>
+								<h4>Azure Fundamentals - April 2022</h4>
+						<br>
+						<br>
+						<br>
+
+					</div>
+				</div>
+			</div><!--/ .slide-->
+			
+			<div class="slide">
+			 	<div class="slide-wrapper">
+				 	<div class="slide-wrapper-inner">
+						<h2>Projects</h2>
+						<br>
+						<br>
+						<br>
+						<br>
+						<br>
+						<br>
+						<br>
+						<!--Gallery-->
+						<div class="row gallery chocolat-parent" data-chocolat-title="Portfolio">
+							
+							<!--Gallery Item-->
+							<div class="col-sm-6 col-md-4 col-gallery	" data-category="1" data-sort="value">
+								<figcaption>
+									<div class="parent">
+										<img src="images/EventHarbor.png" class="img-fluid">
+										 <div class="child ">
+											<h3>EventHarbor</h3>
+											<p>PowerShell Security Tool</p>
+											<a href="https://github.com/tcb-security/EventHarbor" class="btn chocolat-image" title="Link to Github">Github</a>
+										</div>
+									</div>
+								</figcaption>
+							</div>
+							
+							<!--Gallery Item-->
+							<div class="col-6 col-md-4 col-gallery">
+								<figcaption>
+									<div class="parent">
+										<img src="images/CloudResume.png" class="img-fluid">
+										 <div class="child ">
+											<h3>Cloud Resume</h3>
+											<p>A Resume built and hosted in AWS</p>
+											<a href="https://github.com/tcb-security/Cloud-Resume" class="btn chocolat-image" title="Link to Github">Github</a>
+										</div>
+									</div>
+								</figcaption>
+							</div>
+							
+							<!--Gallery Item-->
+							<div class="col-6 col-md-4 col-gallery">
+								<figcaption>
+									<div class="parent">
+										<img src="images/Windows_Loading_Bar.png" class="img-fluid">
+										 <div class="child ">
+											<h3>We'll see</h3>
+											<p>if complete: return Description</p>
+											<a href="https://dino-chrome.com/" class="btn chocolat-image" title="Inspiration">Not mine but highly recommend</a>
+										</div>
+									</div>
+								</figcaption>
+							</div>
+						<br>
+						<br>
+						<br>
+						<br>
+						<br>
+						<br>
+						<br>
+						<br>
+						<br>
+						<br>
+						<br>
+						<br>
+						<br>
+						<br>
+						<br>
+						<br>
+						<br>
+						<br>
+						<br>
+						<br>
+						<br>
+						<br>
+						<br>
+						<br>
+							<!--Gallery Item-->
+							
+							<!--Gallery Item-->
+							
+							<!--Gallery Item-->
+						</div>
+
+					</div>
+				</div>
+			</div><!--/ .slide-->
+			
+			<div class="slide">
+			 	<div class="slide-wrapper">
+				 	<div class="slide-wrapper-inner">
+																							
+						<h2>Contact Details</h2>
+						<br>
+						<br>
+						<br>
+						<br>
+						<br>
+						<br>
+						<br>
+						
+						
+													
+						<div class="container contact-details">
+							<div class="row">
+								<div class="col-md text-middle">
+									<h3>Email</h3>
+									<p><a href="#">tristan.c.boomer@gmail.com</a></p>
+									<h3>Linkedin</h3>
+									<p><a href="https://www.linkedin.com/in/tristanboomer/">https://www.linkedin.com/in/tristanboomer/</a></p>
+									<h3>Github</h3>
+									<p><a href="https://github.com/tcb-security">https://github.com/tcb-security</a></p>
+								</div>
+							</div>
+						</div>
+						<br>
+						<br>
+						<br>
+						<br>
+						<br>
+						<br>
+						<br>
+						<br>
+						<br>
+						<br>
+						
+						<div class="mt-4 pt-4">
+							Template by <a href="https://www.medialoot.com">Medialoot</a>
+						</div>
+
+					</div>
+				</div>
+			</div><!--/ .slide-->
+			
+		</div><!--/ .site-wrapper-->
+
+
+		<!-- jQuery first, then Tether, then Bootstrap JS. -->
+		<script   src="https://code.jquery.com/jquery-3.2.1.slim.min.js"   integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g="   crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+		
+		<!--Full Screen Vertical Slider-->
+		<script type="text/javascript" src="js/fsvs.js"></script>
+		<script>
+		jQuery(document).ready(function($){
+		    var slider = $.fn.fsvs({
+		        speed               : 1200,
+		        bodyID              : 'fsvs-body',
+		        selector            : '> .slide',
+		        mouseDragEvents     : false
+		    });
+		});
+		</script>
+		
+		<!-- Chocolat -->
+		<script type="text/javascript" src="js/jquery.chocolat.min.js"></script>
+		<script type="text/javascript">
+			$(document).ready(function(){
+			    $('.chocolat-parent').Chocolat();
+			});
+		</script>
+		<script type="text/javascript" src="js/post.js"> </script>
+
+	</body>
+</html>
